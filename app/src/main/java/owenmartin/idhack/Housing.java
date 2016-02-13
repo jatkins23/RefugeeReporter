@@ -36,7 +36,7 @@ public class Housing extends AppCompatActivity {
         textView.setTextSize(40);
         textView.setText(message);
 
-        RelativeLayout layout = (RelativeLayout) findViewByID(R.id.content);
+        RelativeLayout layout = (RelativeLayout) findViewById(R.id.content);
         layout.addView(textView);
 
     }
